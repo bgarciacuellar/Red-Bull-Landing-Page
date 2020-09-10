@@ -58,4 +58,45 @@ header ul li a {
 }
 
 .content .textBox {
+  position: relative;
+  max-width: 600px;
+}
+.content .textBox h1 {
+  color: #fff;
+  font-size: 3.5em;
+  line-height: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.content .textBox h1 span {
+  font-size: 2.2em;
+  color: #cc1e4a;
+}
+
+.content .textBox p {
+  color: #fff;
+  margin: 10px;
+  font-size: 1em;
+}
+.content .textBox a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background: #cc1e4a;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.content .imgBox {
+  width: 600px;
+  display: flex;
+  padding-right: 50px;
+  margin-top: 50px;
+  justify-content: flex-end;
+}
+
+.content .imgBox img {
+  max-width: 300px;
 }
