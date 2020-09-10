@@ -38,10 +38,38 @@
         </div>
       </div>
       <ul class="thumb">
-        <li><img src="img/redbull-energy-drink.png" alt="energy-drink" /></li>
-        <li><img src="img/redbull-tropical-edition.png" /></li>
-        <li><img src="img/redbull-sugarfree.png" alt="sugarfree" /></li>
+        <li>
+          <img
+            src="img/redbull-energy-drink.png"
+            alt="energy-drink"
+            onclick="imgSlider('img/redbull-energy-drink.png');
+            changeBgColor('#000')"
+          />
+        </li>
+        <li>
+          <img
+            src="img/redbull-tropical-edition.png"
+            onclick="imgSlider('img/redbull-tropical-edition.png')"
+          />
+        </li>
+        <li>
+          <img
+            src="img/redbull-sugarfree.png"
+            alt="sugarfree"
+            onclick="imgSlider('img/redbull-sugarfree.png');
+            changeBgColor('#fff')"
+          />
+        </li>
       </ul>
     </section>
+    <script type="text/javascript">
+      function imgSlider(anything) {
+        document.querySelector(".energy-drink").src = anything;
+      }
+      function changeBgColor(color) {
+        const sec = document.querySelector(".sec");
+        sec.style.background = color;
+      }
+    </script>
   </body>
 </html>
