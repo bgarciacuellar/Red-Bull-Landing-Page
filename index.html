@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="img/favicon.png" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="otro.css" />
     <title>Red Bull</title>
   </head>
   <body>
@@ -13,11 +14,11 @@
         <a href="/"
           ><img src="img/logo.png" alt="logo-header" class="logo"
         /></a>
-        <ul>
+        <ul class="snip1217">
           <li><a href="#">TV</a></li>
           <li><a href="#">Eventos</a></li>
           <li><a href="#">Atletas</a></li>
-          <li><a href="#">Productos</a></li>
+          <li class="current"><a href="#">Productos</a></li>
         </ul>
       </header>
       <div class="content">
@@ -43,13 +44,14 @@
             src="img/redbull-energy-drink.png"
             alt="energy-drink"
             onclick="imgSlider('img/redbull-energy-drink.png');
-            changeBgColor('#000')"
+            changeBgColor('#1f4074')"
           />
         </li>
         <li>
           <img
             src="img/redbull-tropical-edition.png"
-            onclick="imgSlider('img/redbull-tropical-edition.png')"
+            onclick="imgSlider('img/redbull-tropical-edition.png');
+            changeBgColor('#FFC906')"
           />
         </li>
         <li>
@@ -57,7 +59,7 @@
             src="img/redbull-sugarfree.png"
             alt="sugarfree"
             onclick="imgSlider('img/redbull-sugarfree.png');
-            changeBgColor('#fff')"
+            changeBgColor('#008CD1')"
           />
         </li>
       </ul>
