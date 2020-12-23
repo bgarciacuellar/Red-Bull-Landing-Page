@@ -1,3 +1,2 @@
 # Landing Page Red Bull
-
-https://bgarciacuellar.github.io/Red-Bull-Landing-Page/
+<a href="https://bgarciacuellar.github.io/Red-Bull-Landing-Page/">Landing Page</a>
